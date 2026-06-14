@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+
+
+_nuxt/
+node_modules/
+.nuxt/
+.output/
+.env
+.env.local
+yumi_landing_page.tar.gz
