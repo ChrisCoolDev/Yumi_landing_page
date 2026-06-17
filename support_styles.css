@@ -1,0 +1,48 @@
+.generic{color:#141f1e;padding-bottom:5rem;padding-top:10.625rem}
+.generic__title{font-size:4.5rem;letter-spacing:-.225rem;line-height:100%;margin-bottom:3.5rem}
+.generic__content,.generic__title{font-family:TWK Lausanne,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;font-style:normal;font-weight:500}
+.generic__content{font-size:.9375rem;letter-spacing:-.0375rem;line-height:140%}
+.generic__content h2{font-size:3rem;letter-spacing:-.15rem;margin:3rem 0 1.5rem}
+.generic__content h2,.generic__content h3{font-family:TWK Lausanne,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;font-style:normal;font-weight:500;line-height:100%}
+.generic__content h3{font-size:2rem;letter-spacing:-.0625rem;margin:1.5rem 0 1rem}
+.generic__content p{font-size:.9375rem;letter-spacing:-.0375rem;line-height:140%;margin:1rem 0}
+.generic__content blockquote,.generic__content p{font-family:TWK Lausanne,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;font-style:normal;font-weight:500}
+.generic__content blockquote{font-size:1.375rem;font-style:italic;letter-spacing:-.06875rem;line-height:100%;line-height:140%;margin:3.5rem 0;min-width:20rem;padding-left:1.5rem;position:relative;width:70%}
+.generic__content blockquote:before{background:#141f1e;bottom:0;content:"";left:0;position:absolute;top:0;width:4px}
+.generic__content a{color:#5bdf7f;font-family:TWK Lausanne,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;font-size:.9375rem;font-style:normal;font-weight:600;letter-spacing:-.0375rem;line-height:110%;text-decoration:none}
+.generic__content ul{margin:2rem 0 2rem .875rem}
+.generic__content ul li{font-family:TWK Lausanne,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;font-size:.9375rem;font-style:normal;font-weight:500;letter-spacing:-.0375rem;line-height:140%;margin-bottom:.5rem}
+.generic__content ol{margin:1.5rem 0 1.5rem 1.5rem}
+.generic__content ol li{font-weight:500;line-height:140%;margin-bottom:.5rem}
+.generic__content ol li,.generic__content strong{font-family:TWK Lausanne,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;font-size:.9375rem;font-style:normal;letter-spacing:-.0375rem}
+.generic__content strong{font-weight:600;line-height:110%}
+.generic__content address{line-height:140%;line-height:160%;margin:1.5rem 0}
+.generic__content address,.generic__version{font-family:TWK Lausanne,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;font-size:.9375rem;font-style:normal;font-weight:500;letter-spacing:-.0375rem}
+.generic__version{color:#b1c4c2;line-height:140%;margin-bottom:2.5rem}
+.generic__toc{background-color:#fafaf9;border-radius:.5rem;margin-bottom:3rem;padding:2rem}
+.generic__toc h2{font-family:TWK Lausanne,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;font-size:1.375rem;font-style:normal;font-weight:500;letter-spacing:-.06875rem;line-height:100%;margin:0 0 1rem}
+.generic__toc ol{margin:0;padding-left:1.5rem}
+.generic__toc ol li{margin-bottom:.25rem}
+.generic__toc a{color:#141f1e;font-family:TWK Lausanne,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;font-size:.9375rem;font-style:normal;font-weight:500;letter-spacing:-.0375rem;line-height:140%}
+.generic__toc a:hover{color:#5bdf7f}
+.generic__address{background-color:#fafaf9;border-radius:.25rem;display:inline-block;padding:1rem 1.5rem}
+.generic__contact{font-family:TWK Lausanne,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;font-size:.9375rem;font-style:normal;font-weight:600;letter-spacing:-.0375rem;line-height:110%;margin:1rem 0}
+.support-page{min-height:100vh}
+.support-page__eyebrow{align-items:center;background:rgba(91,223,127,.2);border:1px solid rgba(91,223,127,.34);border-radius:9999px;color:#141f1e;display:inline-flex;font-family:TWK Lausanne,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;font-size:.9375rem;font-style:normal;font-weight:600;letter-spacing:-.0375rem;line-height:110%;margin-bottom:1.5rem;padding:.5rem .875rem;width:-moz-fit-content;width:fit-content}
+.support-page__title{max-width:61.1111111111%}
+@media (max-width:768px){.support-page__title{font-size:3.25rem;letter-spacing:-.1625rem;max-width:100%}
+.support-page__content{max-width:69.4444444444%}
+@media (max-width:768px){.support-page__content{max-width:100%}
+.support-page__lead{color:#141f1e;font-family:TWK Lausanne,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;font-size:1.375rem;font-style:normal;font-weight:500;letter-spacing:-.06875rem;line-height:100%;line-height:130%;margin-bottom:2.5rem!important;max-width:61.1111111111%}
+@media (max-width:768px){.support-page__lead{font-size:1.25rem;max-width:100%}
+.support-page__cards{display:grid;gap:1rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:2.5rem 0 3.5rem}
+@media (max-width:768px){.support-page__cards{grid-template-columns:1fr}
+.support-page__card{background:#fff;border:1px solid rgba(31,54,51,.12);border-radius:1.125rem;color:#141f1e;display:flex;flex-direction:column;min-height:13rem;padding:1.75rem;text-decoration:none}
+.support-page__card strong{color:#141f1e;display:block;font-size:2rem;font-size:1.75rem;letter-spacing:-.0625rem;line-height:100%;margin:2rem 0 .875rem;overflow-wrap:anywhere}
+.support-page__card span:last-child,.support-page__card strong{font-family:TWK Lausanne,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;font-style:normal;font-weight:500}
+.support-page__card span:last-child{color:rgba(20,31,30,.72);font-size:.9375rem;letter-spacing:-.0375rem;line-height:140%}
+.support-page__card--primary{background:#141f1e;border-color:#141f1e;transition:transform .2s ease,box-shadow .2s ease}
+.support-page__card--primary .support-page__card-label,.support-page__card--primary span:last-child,.support-page__card--primary strong{color:#fff}
+.support-page__card--primary .support-page__card-label{background:hsla(0,0%,100%,.08);border-color:hsla(0,0%,100%,.12)}
+.support-page__card--primary:hover{box-shadow:0 1.25rem 3.75rem rgba(20,31,30,.18);transform:translateY(-.1875rem)}
+.support-page__card-label{background:#fafaf9;border:1px solid rgba(31,54,51,.12);border-radius:9999px;color:rgba(20,31,30,.74);display:inline-flex;font-family:TWK Lausanne,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;font-size:.75rem;font-style:normal;font-weight:400;letter-spacing:.05625rem;line-height:140%;padding:.4375rem .625rem;text-transform:uppercase;width:-moz-fit-content;width:fit-content}
