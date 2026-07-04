@@ -148,7 +148,9 @@ const translations = {
     "support.p_1": "Lorsque c'est possible, ajoutez assez de contexte pour que nous puissions investiguer sans demander de détails supplémentaires.",
     "support.li_2_1": "Le nom de votre commerce ou de votre entreprise.",
     "support.li_2_2": "La commande, conversation client ou numéro WhatsApp concerné.",
-    "support.li_2_3": "La date et l'heure approximatives du problème, ainsi que des captures d'écran si utile."
+    "support.li_2_3": "La date et l'heure approximatives du problème, ainsi que des captures d'écran si utile.",
+    "page.title": "Yumi | Permettez à vos clients de commander sur WhatsApp",
+    "page.description": "Démarquez-vous de la concurrence en offrant une expérience de commande fluide, sans friction et sans aucune commission, directement sur WhatsApp."
   },
   en: {
     "privacy.title": "Haku Studio Privacy Notice",
@@ -203,7 +205,9 @@ const translations = {
     "support.p_1": "Whenever possible, include enough context so we can investigate without asking for more details.",
     "support.li_2_1": "The name of your shop or business.",
     "support.li_2_2": "The order, customer conversation, or WhatsApp number involved.",
-    "support.li_2_3": "The approximate date and time of the problem, along with screenshots if useful."
+    "support.li_2_3": "The approximate date and time of the problem, along with screenshots if useful.",
+    "page.title": "Yumi | Let your customers order on WhatsApp",
+    "page.description": "Stand out from the competition by offering a smooth, frictionless, and zero-commission ordering experience, directly on WhatsApp."
   }
 };
 
@@ -294,6 +298,17 @@ function applyTranslations(lang) {
       }
     }
   });
+
+  // Update document title and meta description
+  if (texts['page.title']) {
+    document.title = texts['page.title'];
+  }
+  if (texts['page.description']) {
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) {
+      metaDesc.setAttribute('content', texts['page.description']);
+    }
+  }
 }
 
 // Initialize language from local storage
